@@ -1,15 +1,37 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Dao Sy Duy Minh Portfolio",
+  "name": "Dao Sy Duy Minh - AI Engineer & ML Researcher Portfolio",
+  "description": "Portfolio of Dao Sy Duy Minh - AI Engineer Intern, Machine Learning Researcher, and Kaggle Expert specializing in NLP, Computer Vision, and Responsible AI",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.png", 
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "any"
+    },
+    {
+      "src": "logo192.png", 
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png", 
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#00d9ff",
+  "background_color": "#0a0b0f",
+  "categories": ["portfolio", "ai", "machine-learning", "technology"],
+  "lang": "en-US"
 }

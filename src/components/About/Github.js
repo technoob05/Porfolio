@@ -6,14 +6,18 @@ function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        Days I <strong style={{ color: "#00d9ff" }}>Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="technoob05"
         blockSize={15}
         blockMargin={5}
-        color="#c084f5"
+        color="#00d9ff"
         fontSize={16}
+        theme={{
+          light: ['#161b22', '#0d1117', '#00374d', '#0099cc', '#00d9ff'],
+          dark: ['#161b22', '#0d1117', '#00374d', '#0099cc', '#00d9ff']
+        }}
       />
     </Row>
   );
