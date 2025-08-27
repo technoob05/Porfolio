@@ -195,83 +195,82 @@ function Projects() {
           <h2 className="section-heading">
             📚 <span style={{ color: "#00d9ff" }}>Additional</span> Projects
           </h2>
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-            <Col md={4} className="project-card">
-              <ProjectCard
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath={mnistClassifier}
-                isBlog={false}
+              isBlog={false}
                 title="MNIST Digit Classifier Web App"
                 description="Real-time handwritten digit recognition web application using custom neural network trained on MNIST dataset. Features webcam capture, image upload, confidence scoring, and advanced preprocessing pipeline."
                 ghLink="https://github.com/technoob05/MNIST-Digit-Classifier-WEB"
-                demoLink="https://mnist-classifier-web.vercel.app/"
                 techStack={["React", "TypeScript", "TensorFlow.js", "Flask", "OpenCV", "Machine Learning"]}
                 category="ML Demo"
-              />
-            </Col>
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath={videoDownloader}
-                isBlog={false}
+              isBlog={false}
                 title="Multi-Platform Video Downloader"
-                description="Comprehensive web application for downloading videos from multiple platforms including YouTube, X (Twitter), TikTok, Instagram, and Facebook. Features multi-format support (MP4, WebM), audio-only downloads, and batch processing."
+                description="Desktop application for downloading videos from multiple platforms including YouTube, X (Twitter), TikTok, Instagram, and Facebook. Features multi-format support (MP4, WebM), audio-only downloads, and batch processing with user-friendly interface."
                 ghLink="https://github.com/technoob05/Video-downloader"
                 demoLink="https://github.com/technoob05/Video-downloader/releases"
-                techStack={["Python", "Flask", "yt-dlp", "Beautiful Soup", "HTML/CSS", "Web Scraping"]}
+                techStack={["Python", "Tkinter", "yt-dlp", "Beautiful Soup", "Desktop App", "Web Scraping"]}
                 category="Utility"
-              />
-            </Col>
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath={caroGameProject}
-                isBlog={false}
+              isBlog={false}
                 title="Advanced Tic-Tac-Toe Game (C/C++)"
                 description="Comprehensive console-based game featuring multiple game modes (Player vs Player, Player vs Bot with Easy/Hard difficulty), sound effects, ASCII art characters (Pikachu, Charizard, Meowtwo), save/load functionality, and animated UI."
                 ghLink="https://github.com/technoob05/Tik-Tak-Toe-project"
                 demoLink="https://www.youtube.com/watch?v=u-_KmmpESVs&t=32s&ab_channel=M%E1%BB%B9LinhB%C3%A0ng"
                 techStack={["C++", "Visual Studio", "Game Development", "File I/O", "Audio Integration", "System Programming"]}
                 category="Game"
-              />
-            </Col>
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath={tomJerryProject}
-                isBlog={false}
+              isBlog={false}
                 title="Tom and Jerry Maze Solver"
                 description="Developed a puzzle game inspired by Tom and Jerry, implementing graph algorithms such as DFS, BFS, Dijkstra, and A* for pathfinding in Python. Features intelligent maze solving with multiple algorithm comparisons and interactive gameplay."
                 ghLink="https://github.com/technoob05/Tom-and-Jerry-Maze-Game-"
                 demoLink="https://www.youtube.com/watch?v=ju5hfgw210U&t=78s&ab_channel=Ki%C3%AAnNguy%E1%BB%85nTr%E1%BA%A7nTrung"
                 techStack={["Python", "PyGame", "Graph Algorithms", "DFS/BFS", "A* Algorithm", "Pathfinding"]}
                 category="Algorithm"
-              />
-            </Col>
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath={abideProject}
-                isBlog={false}
+              isBlog={false}
                 title="PCA and Clustering on ABIDE II Dataset"
                 description="Performed dimensionality reduction (PCA) and clustering on the highly noisy ABIDE II dataset, aiming to identify patterns linked to autism spectrum disorder (ASD). Achieved up to 62% clustering accuracy in distinguishing ASD-related subgroups."
                 ghLink="https://github.com/NLPQuy"
                 techStack={["Python", "NumPy", "scikit-learn", "Pandas", "PCA", "Clustering"]}
                 category="Data Science"
-              />
-            </Col>
+            />
+          </Col>
 
-            <Col md={4} className="project-card">
-              <ProjectCard
+          <Col md={4} className="project-card">
+            <ProjectCard
                 imgPath={remoteDesktopProject}
-                isBlog={false}
+              isBlog={false}
                 title="Remote Desktop Control via Gmail"
                 description="Built a socket-based application enabling remote computer control authenticated through Gmail, leveraging C# and the .NET Framework. Features secure authentication, real-time control capabilities, and network communication protocols."
                 ghLink="https://github.com/NLPQuy"
                 techStack={["C#", ".NET Framework", "Socket Programming", "Gmail API", "Network Security", "Authentication"]}
                 category="Security"
-              />
-            </Col>
-          </Row>
+            />
+          </Col>
+        </Row>
         </div>
       </Container>
     </Container>
